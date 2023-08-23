@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.xng-breadcrumb-separator,
+.xng-breadcrumb-link{
+    color: #fff !important;
+}
+
+.xng-breadcrumb-trail{
+    color: orange !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255 255 255)!important;
+    background-color: #ff6e07 !important;
+    font-weight: 600 !important;
+}

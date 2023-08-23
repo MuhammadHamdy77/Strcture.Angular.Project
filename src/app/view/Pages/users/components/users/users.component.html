@@ -1,0 +1,18 @@
+<table class="table table-responsive table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Tile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of users ; let i = index">
+        <td>{{i + 1}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.title}}</td>
+      </tr>
+    </tbody>
+  </table>
